@@ -68,6 +68,7 @@ pub fn register_early_global_fns(site: &mut Site) -> TeraResult<()> {
             site.tera.clone(),
         ),
     );
+    site.tera.register_function("gw2_chatlink", global_fns::Gw2Chatlink::new());
 
     Ok(())
 }
