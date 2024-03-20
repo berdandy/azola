@@ -11,9 +11,6 @@ use libs::sha2::{digest, Sha256, Sha384, Sha512};
 use libs::tera::{from_value, to_value, Function as TeraFn, Result, Value};
 use utils::site::resolve_internal_link;
 
-use chatr::BuildTemplate;
-use chatr::markup::armory;
-
 fn compute_hash<D: digest::Digest>(data: &[u8], as_base64: bool) -> String
 where
     digest::Output<D>: core::fmt::LowerHex,
@@ -245,30 +242,6 @@ impl TeraFn for GetHash {
         Ok(to_value(hash).unwrap())
     }
 }
-
-// this is a stupid spot for this. move me.
-#[derive(Debug)]
-pub struct Gw2Chatlink {
-}
-impl Gw2Chatlink {
-    pub fn new() -> Self {
-        Self { }
-    }
-}
-impl TeraFn for Gw2Chatlink {
-    fn call(&self, args: &HashMap<String, Value>) -> Result<Value> {
-        let code = optional_arg!(
-            String,
-            args.get("code"),
-            "`gw2_chatlink` requires a `code` argument with a string value"
-        ).unwrap();
-        let build = BuildTemplate::from_string(&code[..]);
-        let markup = armory(build).expect("failed to process provided chatlink");
-
-        Ok(to_value(markup).unwrap())
-    }
-}
-
 
 #[cfg(test)]
 mod tests {
