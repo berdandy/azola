@@ -1,0 +1,9 @@
+- git fetch upstream
+- git rebase upstream/master
+- fix conflicts:
+  - git checkout --theirs <file> # keep my fork
+  - git checkout --ours <file> # keep upstream/master
+  - manually resolve with editor
+- cargo build
+  - git add <file>
+- git rebase --continue
