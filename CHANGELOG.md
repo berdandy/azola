@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.18.0-aw2.1 (2024-03-20)
+## 0.18.1-aw2.1 (2024-03-20)
 
 - Added gw2_chatlink tera function to convert gw2 chatlinks to markup
 
