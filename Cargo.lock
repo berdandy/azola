@@ -4651,7 +4651,7 @@ dependencies = [
 
 [[package]]
 name = "zola"
-version = "0.18.1-aw2.1"
+version = "0.18.1-aw2.2"
 dependencies = [
  "clap 4.4.11",
  "clap_complete",
