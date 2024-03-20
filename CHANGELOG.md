@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.18.0-aw2-1 (2024-03-20)
+
+- Added gw2_chatlink tera function to convert gw2 chatlinks to markup
+
 ## 0.18.0 (2023-12-18)
 
 - Fix LFI in `zola serve`
