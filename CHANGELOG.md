@@ -11,6 +11,8 @@
 
 - azola initial release as separate identity (branched from zola-latest)
 - Added chatr 0.6.4 (pet icon with css class support)
+- Updated chatr to 0.6.3 (pet icon support)
+- Maintenance release to remove unnecessary submodules
 - Added gw2_chatlink tera function to convert gw2 chatlinks to markup
 
 ## 0.19.2 (2024-08-15)
