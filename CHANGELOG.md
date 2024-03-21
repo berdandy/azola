@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.18.1-aw2.5 (2024-03-20)
+## 0.18.1-aw2.5 (2024-03-21)
 
 - Updated chatr to 0.6.3 (pet icon support)
 
