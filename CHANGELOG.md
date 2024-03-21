@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.18.1-aw2.4 (2024-03-20)
+
+- Maintenance release to remove unnecessary submodules
+
 ## 0.18.1-aw2.2 (2024-03-20)
 
 - Added gw2_chatlink tera function to convert gw2 chatlinks to markup
