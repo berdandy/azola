@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.18.1-aw2.5 (2024-03-20)
+
+- Updated chatr to 0.6.3 (pet icon support)
+
 ## 0.18.1-aw2.4 (2024-03-20)
 
 - Maintenance release to remove unnecessary submodules
