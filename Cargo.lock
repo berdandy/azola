@@ -170,6 +170,32 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"
 
 [[package]]
+name = "azola"
+version = "0.1.0"
+dependencies = [
+ "clap 4.5.3",
+ "clap_complete",
+ "console 0.1.0",
+ "ctrlc",
+ "errors",
+ "hyper",
+ "libs",
+ "mime",
+ "mime_guess",
+ "notify",
+ "open",
+ "openssl",
+ "pathdiff",
+ "same-file",
+ "site",
+ "time",
+ "tokio",
+ "utils",
+ "winres",
+ "ws",
+]
+
+[[package]]
 name = "backtrace"
 version = "0.3.70"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4588,32 +4614,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.53",
-]
-
-[[package]]
-name = "zola"
-version = "0.18.1-aw2.6"
-dependencies = [
- "clap 4.5.3",
- "clap_complete",
- "console 0.1.0",
- "ctrlc",
- "errors",
- "hyper",
- "libs",
- "mime",
- "mime_guess",
- "notify",
- "open",
- "openssl",
- "pathdiff",
- "same-file",
- "site",
- "time",
- "tokio",
- "utils",
- "winres",
- "ws",
 ]
 
 [[package]]

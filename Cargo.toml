@@ -1,11 +1,11 @@
 [package]
-name = "zola"
-version = "0.18.1-aw2.6"
+name = "azola"
+version = "0.1.0"
 authors = ["Vincent Prouillet <hello@vincentprouillet.com>", "Andy Berdan <andy@berdan.ca>"]
 edition = "2021"
 license = "MIT"
 readme = "README.md"
-description = "A fast static site generator with everything built-in"
+description = "A fast static site generator with everything built-in. Forked from zola with customizations for aw2"
 homepage = "https://www.getzola.org"
 repository = "https://github.com/berdandy/azola"
 keywords = ["static", "site", "generator", "blog"]
@@ -17,7 +17,7 @@ winres = "0.1"
 time = "0.3"
 
 [[bin]]
-name = "zola"
+name = "azola"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
@@ -65,7 +65,7 @@ cargo-dist-version = "0.11.1"
 # CI backends to support
 ci = ["github"]
 # The installers to generate for each app
-installers = []
+installers = ["shell", "msi"]
 # Target platforms to build apps for (Rust target-triple syntax)
 targets = ["x86_64-unknown-linux-gnu", "x86_64-pc-windows-msvc"]
 # Publish jobs to run in CI
@@ -91,3 +91,9 @@ lto = "thin"
 [package.metadata.winres]
 OriginalFilename = "zola.exe"
 InternalName = "zola"
+
+[package.metadata.wix]
+upgrade-guid = "BD78BA4C-7593-4C05-A9E2-CBB0EAA1FD6B"
+path-guid = "B0D40DE3-F52A-4A93-9532-2E15655AA4CC"
+license = false
+eula = false
