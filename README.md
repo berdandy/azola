@@ -1,7 +1,12 @@
-# zola (né Gutenberg)
+# azola
 
-[![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build/latest?definitionId=1&branchName=master)
-![GitHub all releases](https://img.shields.io/github/downloads/getzola/zola/total)
+Forked from [zola](https://github.com/getzola/zola) with AccessibilityWars custom features (mostly tera functions).
+
+The bulk of the software is the same, but because semver does semver things, it's a new 'product'
+
+---
+
+## zola (né Gutenberg) original
 
 A fast static site generator in a single binary with everything built-in.
 
@@ -11,7 +16,7 @@ in the `docs/content` folder of the repository and the community can use [its fo
 This tool and the template engine it is using were born from an intense dislike of the (insane) Golang template engine and therefore of 
 Hugo that I was using before for 6+ sites.
 
-# List of features
+## List of features
 
 - Single binary
 - Syntax highlighting 
