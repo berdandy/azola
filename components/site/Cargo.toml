@@ -18,7 +18,7 @@ imageproc = { path = "../imageproc" }
 link_checker = { path = "../link_checker" }
 libs = { path = "../libs" }
 content = { path = "../content" }
-chatr = "0.6.0"
+chatr = "0.6.5"
 
 [dev-dependencies]
 tempfile = "3"
