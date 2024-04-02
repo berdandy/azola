@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+- Added chatr 0.6.6 (offline api). This uses embedded skill/trait/pet/legend/specialization/profession api data to
+  deal with chat codes instead of making API calls
+
 ## 0.1.0
 
 - azola initial release as separate identity
