@@ -1,9 +1,10 @@
 # Changelog
 
-## 0.1.2
+## 0.1.3
 
-- Added chatr 0.6.6 (offline api). This uses embedded skill/trait/pet/legend/specialization/profession api data to
+- Added chatr 0.6.7 (offline api). This uses embedded skill/trait/pet/legend/specialization/profession api data to
   deal with chat codes instead of making API calls
+- Improved error handling
 
 ## 0.1.0
 
