@@ -12,6 +12,7 @@
 - Added chatr 0.6.7 (offline api). This uses embedded skill/trait/pet/legend/specialization/profession api data to
   deal with chat codes instead of making API calls
 - Improved error handling
+- Updated image libs to address surprise breaking change
 - azola initial release as separate identity
 - Updated chatr to 0.6.4 (pet icon css class support)
 - Updated chatr to 0.6.3 (pet icon support)
