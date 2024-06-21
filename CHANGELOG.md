@@ -13,6 +13,8 @@
 - Added chatr 0.6.4 (pet icon with css class support)
 - Added gw2_chatlink tera function to convert gw2 chatlinks to markup
 
+- Fix `config.generate_feeds` being still serialized as `config.generate_feed`
+
 ## 0.19.0 (2024-06-20)
 
 - Updates the pulldown-cmark dependency to v0.11.0. This improves footnote handling, and may also introduce some minor behavior changes such as reducing the amount of unnecessary HTML-escaping of text content.
