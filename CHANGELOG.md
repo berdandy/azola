@@ -13,6 +13,8 @@
 - Added chatr 0.6.4 (pet icon with css class support)
 - Added gw2_chatlink tera function to convert gw2 chatlinks to markup
 
+## 0.20.0 (unreleased)
+
 ## 0.19.1 (2024-06-24)
 
 - Fix `config.generate_feeds` being still serialized as `config.generate_feed`. Both are available for now
