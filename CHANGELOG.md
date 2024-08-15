@@ -13,12 +13,16 @@
 - Added chatr 0.6.4 (pet icon with css class support)
 - Added gw2_chatlink tera function to convert gw2 chatlinks to markup
 
-## 0.20.0 (unreleased)
+## 0.19.2 (2024-08-15)
 
 - Fix some of YAML date parsing
 - Fix feed generation for languages not working in some cases (it was taking the value from the root of the config for
 feed_filenames)
 - Ignore `.bck` files in `zola serve`
+- Fix change monitoring on Windows
+- Allow disabling sitemap.xml and robots.txt generation
+- Fix shortcodes in inline HTML
+- Ignore code blocks in word count
 
 ## 0.19.1 (2024-06-24)
 
