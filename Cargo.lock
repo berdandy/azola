@@ -228,6 +228,32 @@ dependencies = [
 ]
 
 [[package]]
+name = "azola"
+version = "1.0.0"
+dependencies = [
+ "clap 4.5.7",
+ "clap_complete",
+ "console 0.1.0",
+ "ctrlc",
+ "errors",
+ "hyper",
+ "libs",
+ "mime",
+ "mime_guess",
+ "notify-debouncer-full",
+ "open",
+ "openssl",
+ "pathdiff",
+ "same-file",
+ "site",
+ "time",
+ "tokio",
+ "utils",
+ "winres",
+ "ws",
+]
+
+[[package]]
 name = "backtrace"
 version = "0.3.73"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5364,32 +5390,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.66",
-]
-
-[[package]]
-name = "zola"
-version = "0.19.2"
-dependencies = [
- "clap 4.5.7",
- "clap_complete",
- "console 0.1.0",
- "ctrlc",
- "errors",
- "hyper",
- "libs",
- "mime",
- "mime_guess",
- "notify-debouncer-full",
- "open",
- "openssl",
- "pathdiff",
- "same-file",
- "site",
- "time",
- "tokio",
- "utils",
- "winres",
- "ws",
 ]
 
 [[package]]
