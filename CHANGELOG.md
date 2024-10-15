@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5
+
+- Added chatr 0.6.10 for skill code support
+
 ## 1.0.4
 
 - Added chatr 0.6.7 (offline api). This uses embedded skill/trait/pet/legend/specialization/profession api data to
