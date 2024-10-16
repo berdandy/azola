@@ -1,7 +1,6 @@
 use std::collections::HashMap;
 use libs::tera::{from_value, to_value, Function as TeraFn, Result, Value};
 
-use chatr::BuildTemplate;
 use chatr::markup::armory;
 
 #[derive(Debug)]
@@ -19,10 +18,18 @@ impl TeraFn for Gw2Chatlink {
             args.get("code"),
             "`gw2_chatlink` requires a `code` argument with a string value"
         ).unwrap();
-        let build = BuildTemplate::from_string(&code[..]);
-        let markup = armory(build).expect("failed to process provided chatlink");
 
-        Ok(to_value(markup).unwrap())
+        if let Ok(code) = chatr::ChatCode::build(&code[..]) {
+            if let Ok(skill) = chatr::Skill::try_from_chatcode(&code) {
+                return Ok(to_value(format!("Skill: {}", skill.id))?);
+            }
+
+            if let Ok(build) = chatr::BuildTemplate::try_from_chatcode(&code) {
+                return Ok(to_value(armory(build).expect("error with build chatlink"))?);
+            }
+        }
+
+        Err("unknown chat link type".to_string().into())
     }
 }
 
