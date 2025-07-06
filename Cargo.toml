@@ -1,6 +1,6 @@
 [package]
 name = "azola"
-version = "1.0.6"
+version = "1.0.7"
 authors = ["Vincent Prouillet <hello@vincentprouillet.com>", "Andy Berdan <andy@berdan.ca>"]
 edition = "2021"
 license = "MIT"
