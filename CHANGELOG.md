@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.7
+
+- Updated chatr to 0.6.22 to fix skills > 65535
+
 ## 1.0.6
 
 - Added try-dispatch for chatlink tera function to handle either skills or build templates dynamically
