@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.8
+
+- Updated to avoid retired runners on github for release creation
+
 ## 1.0.7
 
 - Updated chatr to 0.6.22 to fix skills > 65535
