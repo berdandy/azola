@@ -1,0 +1,6 @@
+# Publish steps when I inevitably forget...
+
+- Don't use cargo smart-release
+- Update Cargo.toml and Cargo.lock to have new version
+- cargo release --no-publish [-x]
+- github will notice the tag change and build
