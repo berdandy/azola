@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.10
+
+- Added new offline data for VoE specs
+
 ## 1.0.8
 
 - Updated to avoid retired runners on github for release creation
