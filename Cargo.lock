@@ -224,7 +224,7 @@ dependencies = [
 
 [[package]]
 name = "azola"
-version = "1.0.9"
+version = "1.0.10"
 dependencies = [
  "clap 4.5.51",
  "clap_complete",
