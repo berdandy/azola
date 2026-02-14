@@ -11,7 +11,7 @@ config = { path = "../config" }
 imageproc = { path = "../imageproc" }
 markdown = { path = "../markdown" }
 libs = { path = "../libs" }
-chatr = "0.7.0"
+chatr = "0.x"
 
 [dev-dependencies]
 mockito = "0.31"
